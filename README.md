@@ -1,5 +1,5 @@
 <h1>Wassily Chair Website</h1>
-<p>Work in Progress</p>
+<p>Work in Progress.</p>
 <p>Fictional website for the Wassily Chair, including information and a form to order the product.</p>
 <h2>Netlify</h2>
 https://wassily-chair.netlify.app/
