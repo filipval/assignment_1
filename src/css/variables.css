@@ -1,0 +1,26 @@
+:root{
+    /* Colors */
+    --main-background-color: white;
+    --main-text-color: black;
+    --second-text-color: white;
+    --main-border-color: black;
+    --button-hover-background-color: black;
+    --footer-background-color: lightgray;
+
+    /* Typography */
+    --font-family: Helvetica, sans-serif;
+    --font-weight: lighter;
+    --font-style-navbar-hover: italic;
+    --font-size-navbar: 19px;
+    --font-size-introduction: 70px;
+    --font-size-about: 19px;
+    --font-size-th: 19px;
+    --font-size-td: 15px;
+    --font-size-button: 19px;
+    --font-size-footer-h2: 19px;
+    --font-size-footer-p: 15px;
+
+    /* Tablet */
+
+    /* Mobile */
+}
