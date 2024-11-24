@@ -75,6 +75,8 @@ form {
 #material {
   width: 45%;
   margin-right: var(--spacing-medium);
+  color: var(--color-black);
+  background-color: var(--color-white);
 }
 
 #email,
@@ -85,6 +87,8 @@ form {
 #phone-country {
   width: 20%;
   margin-right: var(--spacing-medium);
+  color: var(--color-black);
+  background-color: var(--color-white);
 }
 
 #phone {
@@ -190,10 +194,16 @@ form {
   }
 
   #first-name,
+  #last-name,
+  #postal-code,
+  #country,
+  #color,
+  #quantity,
   #street,
   #city,
   #material {
     width: 43%;
+    margin-right: var(--spacing-medium);
   }
 
   #phone {
