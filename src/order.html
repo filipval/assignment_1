@@ -1,181 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/variables.css">
-    <link rel="stylesheet" href="./css/components.css">
-    <link rel="stylesheet" href="./css/order.css">
-    <link rel="stylesheet" href="./css/navbar.css">
-    <link rel="stylesheet" href="./css/footer.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/order.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
     <title>Order Here</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Navigation -->
     <nav class="grid__container--navbar">
-        <div class="grid__container--navbar-logo">
-            <a href="./index.html">Wassily Chair</a>
-        </div>
-        <div class="grid__container--navbar-about">
-            <a href="./index.html">About</a>
-        </div>
-        <div class="grid__container--navbar-order">
-            <a href="./order.html">Order</a>
-        </div>
+      <div class="grid__container--navbar-logo">
+        <a href="./index.html">Wassily Chair</a>
+      </div>
+      <div class="grid__container--navbar-about">
+        <a href="./index.html">About</a>
+      </div>
+      <div class="grid__container--navbar-order">
+        <a href="./order.html">Order</a>
+      </div>
     </nav>
-    
-    <!-- Main Order Grid -->
+
+    <!-- Main Order / Grid -->
     <main>
-        <section class="grid__container--order">
-            <div class="grid__container--order-here">
-                <h1>Order Here</h1>
-            </div>
-            <!-- Introduction -->
-            <div class="grid__container--order-introduction">
-                <p>Elevate your home or office with a piece of design history. Customize and order your Wassily Chair using the form below.</p>
-            </div>
-            <!-- Form -->
-            <form action="">
-                <input 
-                    type="text" 
-                    name="first-name"
-                    id="first-name"
-                    placeholder="First Name*" 
-                    maxlength="20"
-                    minlength="1"
-                    required>
-                
-                <input 
-                    type="text" 
-                    name="last-name" 
-                    id="last-name"
-                    placeholder="Last Name*" 
-                    maxlength="20"
-                    minlength="1"
-                    required>
-                
-                <input 
-                    type="text" 
-                    name="street" 
-                    id="street"
-                    placeholder="Street*" 
-                    maxlength="20"
-                    minlength="1"
-                    required>
-                
-                <input 
-                    type="text"
-                    name="postal-code"
-                    id="postal-code"
-                    placeholder="Postal Code*"
-                    maxlength="4"
-                    minlength="4"
-                    required>
-                
-                <input 
-                    type="text" 
-                    name="city" 
-                    id="city"
-                    placeholder="City*" 
-                    maxlength="20"
-                    minlength="1"
-                    required>
-                
-                <input 
-                    type="text"
-                    name="country"
-                    id="country"
-                    placeholder="Country*"
-                    maxlength="20"
-                    minlength="1"
-                    required>
-                
-                <select name="material" id="material">
-                    <option value="">Material*</option>
-                    <option value="option1">Leather</option>
-                    <option value="option2">Canvas</option>
-                    <option value="option3">Faux Leather</option>
-                </select>
-            
-                <select name="color" id="color">
-                    <option value="">Color*</option>
-                    <option value="option1">Cowhide Light Brown</option>
-                    <option value="option2">Cowhide Black</option>
-                    <option value="option3">Cowhide White Beige</option>
-                </select>
-        
-                <input 
-                    type="number"
-                    name="quantity"
-                    id="quantity"
-                    placeholder="Quantity*"
-                    min="1"
-                    max="5"
-                    value=""
-                    required>
-        
-                <input 
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="E-mail*"
-                    minlength="1"
-                    maxlength="20"
-                    value=""
-                    required>
-        
-                <input 
-                    type="email"
-                    name="confirm-email"
-                    id="confirm-email"
-                    placeholder="Confirm e-mail*"
-                    minlength="1"
-                    maxlength="20"
-                    value=""
-                    required>
-        
-                <select name="phone-country" id="phone-country">
-                    <option value="">+47 (NO)</option>
-                    <option value="option1">+46 (SE)</option>
-                    <option value="option2">+45 (DK)</option>
-                    <option value="option3">+44 (GB)</option>
-                </select>
-    
-                <input 
-                    type="tel" 
-                    name="phone" 
-                    id="phone"
-                    placeholder="Phone*"
-                    minlength="8"
-                    maxlength="8"
-                    required>
-    
-                <div class="grid__container--order-button">
-                    <button type="submit">Order</button>
-                </div>
-         </form>  
-        </section>
+      <section class="grid__container--order">
+        <div class="grid__container--order-here">
+          <h1>Order Here</h1>
+        </div>
+        <!-- Introduction -->
+        <div class="grid__container--order-introduction">
+          <p>
+            Elevate your home or office with a piece of design history.
+            Customize and order your Wassily Chair using the form below.
+          </p>
+        </div>
+        <!-- Form -->
+        <form action="">
+          <!-- First Name -->
+          <input
+            type="text"
+            name="first-name"
+            id="first-name"
+            placeholder="First Name*"
+            maxlength="20"
+            minlength="1"
+            required
+          />
+          <!-- Last Name -->
+          <input
+            type="text"
+            name="last-name"
+            id="last-name"
+            placeholder="Last Name*"
+            maxlength="20"
+            minlength="1"
+            required
+          />
+          <!-- Street-->
+          <input
+            type="text"
+            name="street"
+            id="street"
+            placeholder="Street*"
+            maxlength="20"
+            minlength="1"
+            required
+          />
+          <!-- Postal Code -->
+          <input
+            type="text"
+            name="postal-code"
+            id="postal-code"
+            placeholder="Postal Code*"
+            maxlength="4"
+            minlength="4"
+            required
+          />
+          <!-- City -->
+          <input
+            type="text"
+            name="city"
+            id="city"
+            placeholder="City*"
+            maxlength="20"
+            minlength="1"
+            required
+          />
+          <!-- Country-->
+          <input
+            type="text"
+            name="country"
+            id="country"
+            placeholder="Country*"
+            maxlength="20"
+            minlength="1"
+            required
+          />
+          <!-- Material-->
+          <select name="material" id="material">
+            <option value="">Material*</option>
+            <option value="option1">Leather</option>
+            <option value="option2">Canvas</option>
+            <option value="option3">Faux Leather</option>
+          </select>
+          <!-- Color -->
+          <select name="color" id="color">
+            <option value="">Color*</option>
+            <option value="option1">Cowhide Light Brown</option>
+            <option value="option2">Cowhide Black</option>
+            <option value="option3">Cowhide White Beige</option>
+          </select>
+          <!-- Quantity -->
+          <input
+            type="number"
+            name="quantity"
+            id="quantity"
+            placeholder="Quantity*"
+            min="1"
+            max="5"
+            value=""
+            required
+          />
+          <!-- E-mail -->
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="E-mail*"
+            minlength="1"
+            maxlength="20"
+            value=""
+            required
+          />
+          <!-- Confirm E-mail -->
+          <input
+            type="email"
+            name="confirm-email"
+            id="confirm-email"
+            placeholder="Confirm e-mail*"
+            minlength="1"
+            maxlength="20"
+            value=""
+            required
+          />
+          <!-- Phone Country -->
+          <select name="phone-country" id="phone-country">
+            <option value="">+47 (NO)</option>
+            <option value="option1">+46 (SE)</option>
+            <option value="option2">+45 (DK)</option>
+            <option value="option3">+44 (GB)</option>
+          </select>
+          <!-- Phone Number -->
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="Phone*"
+            minlength="8"
+            maxlength="8"
+            required
+          />
+          <!-- Order Button -->
+          <div class="grid__container--order-button">
+            <button type="submit">Order</button>
+          </div>
+        </form>
+      </section>
     </main>
-        
+
     <!-- Footer -->
     <footer class="grid__container--footer">
-        <div class="grid__container--footer-copyright">
-            <h2>Wassily Chair <br> ©2024</h2>
-        </div>
-        <div class="grid__container--footer-social">
-            <h2>Social Media</h2>
-            <p>
-                Facebook <br> Instagram <br> Twitter
-            </p>
-        </div>
-        <div class="grid__container--footer-contact">
-            <h2>Contact</h2>
-            <p> 
-                <i>Monday - Friday: 10-19<br>Saturday: 10-16</i><br>
-                <br>Phone: +47 123 45 678 <br>Email: contact@wassily.com
-            </p>
-        </div>
+      <div class="grid__container--footer-copyright">
+        <h2>
+          Wassily Chair <br />
+          ©2024
+        </h2>
+      </div>
+      <div class="grid__container--footer-social">
+        <h2>Social Media</h2>
+        <p>
+          Facebook <br />
+          Instagram <br />
+          Twitter
+        </p>
+      </div>
+      <div class="grid__container--footer-contact">
+        <h2>Contact</h2>
+        <p>
+          <i>Monday - Friday: 10-19<br />Saturday: 10-16</i><br />
+          <br />Phone: +47 123 45 678 <br />Email: contact@wassily.com
+        </p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
