@@ -10,6 +10,9 @@ main {
   margin-top: var(--navbar-height);
 }
 
+/* --------------------------------------- */
+/* Order Introduction */
+
 .grid__container--order {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -37,6 +40,9 @@ main {
 .grid__container--order-introduction p {
   font-size: var(--font-size-base);
 }
+
+/* --------------------------------------- */
+/* Form */
 
 input,
 select {
@@ -95,7 +101,9 @@ form {
   width: 75%;
 }
 
+/* --------------------------------------- */
 /* Order Button */
+
 .grid__container--order-button {
   grid-column: 1 / 7;
   grid-row: 4;
@@ -120,8 +128,10 @@ form {
   color: var(--color-white);
 }
 
-/* Media Queries */
+/* --------------------------------------- */
+/* Responsive Adjustments */
 /* Tablet */
+
 @media screen and (max-width: 820px) {
   .grid__container--order {
     grid-template-columns: repeat(8, 1fr);
@@ -169,7 +179,9 @@ form {
   }
 }
 
+/* --------------------------------------- */
 /* Mobile */
+
 @media screen and (max-width: 430px) {
   .grid__container--order {
     grid-template-columns: repeat(4, 1fr);
