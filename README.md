@@ -9,7 +9,9 @@ To use the Wassily Chair website, open the Netlify link below, scroll through th
 ## Features
 
 Chair details using HTML lists.
+
 Order form with different inputs.
+
 Simple, responsive user interface.
 
 ## Netlify Deployment
